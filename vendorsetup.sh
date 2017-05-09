@@ -1,0 +1,2 @@
+add_lunch_combo aosp_odin-eng
+add_lunch_combo aosp_odin-userdebug
