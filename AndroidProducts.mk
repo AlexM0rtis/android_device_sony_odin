@@ -15,4 +15,4 @@
 
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_odin.mk
+    $(LOCAL_DIR)/pa_odin.mk
