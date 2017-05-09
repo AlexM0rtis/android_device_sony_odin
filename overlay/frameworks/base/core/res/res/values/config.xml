@@ -117,7 +117,4 @@
         <item>250</item>  <!-- 600 - 900 -->
         <item>255</item>  <!-- 900+ -->
     </integer-array>
-
-    <!-- We don't have button backlight. -->
-    <integer name="config_buttonBrightnessSettingDefault">0</integer>
 </resources>
