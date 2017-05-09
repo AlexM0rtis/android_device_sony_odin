@@ -15,8 +15,10 @@
 # limitations under the License.
 #
 
-# Inherit common LineageOS stuff
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit common XOSP stuff
+$(call inherit-product, vendor/xosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/xosp/config/xosp.mk)
+ROOT_METHOD := magisk
 
 # Inherit device configurations
 $(call inherit-product, device/sony/odin/device.mk)
@@ -26,7 +28,7 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
 # Device identifications
-PRODUCT_NAME := lineage_odin
+PRODUCT_NAME := xosp_odin
 PRODUCT_DEVICE := odin
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
